@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightSkyBlue"
+    tools:context=".BigNumbers.NumberNineteen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnZero"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:text="19"
+            android:textColor="@color/black"
+            android:background="@color/transparent"
+            android:textSize="130dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtZero"
+            android:layout_marginTop="2dp"
+            android:text="Nineteen"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

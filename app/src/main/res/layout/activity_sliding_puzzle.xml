@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlidingPuzzle">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:id="@+id/group"
+        android:gravity="center">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/mickey1"
+            android:tag="00"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button2"
+            android:layout_toEndOf="@id/button1"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/mickey2"
+            android:tag="01"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button3"
+            android:layout_below="@id/button1"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/mickey3"
+            android:tag="10"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button4"
+            android:layout_toEndOf="@id/button3"
+            android:layout_below="@id/button2"
+            android:background="@color/black"
+            android:tag="11"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

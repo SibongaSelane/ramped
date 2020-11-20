@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "567293677930",
+    "firebase_url": "https://will-firebase-10701.firebaseio.com",
+    "project_id": "will-firebase-10701",
+    "storage_bucket": "will-firebase-10701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567293677930:android:1a2945184b807953b8d513",
+        "android_client_info": {
+          "package_name": "com.deitel.littlethinkers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567293677930-164frcu419o0udq8t4io9letfffm37lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3sEfs0K_7ICfhlFUOWKc0TPh04bkklBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567293677930-164frcu419o0udq8t4io9letfffm37lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

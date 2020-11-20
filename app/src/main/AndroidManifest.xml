@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deitel.littlethinkers">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Frozen.SlidingPuzzleFrozen"></activity>
+        <activity android:name=".PawPatrol.SlidingPuzzlePawPatrol" />
+        <activity android:name=".Princesses.SlidingPuzzlePrincesses" />
+        <activity android:name=".PuzzleMenu" />
+        <activity android:name=".SlidingPuzzles.SlidingPuzzle1" />
+        <activity android:name=".Level4.L4Round3" />
+        <activity android:name=".Level4.L4Round2" />
+        <activity android:name=".Level3.L3Round3" />
+        <activity android:name=".Level3.L3Round2" />
+        <activity android:name=".Level2.L2Round3" />
+        <activity android:name=".Level2.L2Round2" />
+        <activity android:name=".Level1.L1Round3" />
+        <activity android:name=".Level1.L1Round2" />
+        <activity android:name=".TakePicturesActivity" />
+        <activity android:name=".BigNumbers.NumberTwenty" />
+        <activity android:name=".BigNumbers.NumberNineteen" />
+        <activity android:name=".BigNumbers.NumberEighteen" />
+        <activity android:name=".BigNumbers.NumberSeventeen" />
+        <activity android:name=".BigNumbers.NumberSixteen" />
+        <activity android:name=".BigNumbers.NumberFifteen" />
+        <activity android:name=".BigNumbers.NumberFourteen" />
+        <activity android:name=".BigNumbers.NumberThirteen" />
+        <activity android:name=".BigNumbers.NumberTwelve" />
+        <activity android:name=".BigNumbers.NumberEleven" />
+        <activity android:name=".LearningNumbers.SixteenToTwentyNumbers" />
+        <activity android:name=".LearningNumbers.elevenToFifteenNumbers" />
+        <activity android:name=".BigNumbers.NumberTen" />
+        <activity android:name=".BigNumbers.NumberNine" />
+        <activity android:name=".BigNumbers.NumberEight" />
+        <activity android:name=".BigNumbers.NumberSeven" />
+        <activity android:name=".BigNumbers.NumberSix" />
+        <activity android:name=".BigNumbers.NumberFive" />
+        <activity android:name=".BigNumbers.NumberFour" />
+        <activity android:name=".BigNumbers.NumberZero" />
+        <activity android:name=".BigNumbers.NumberThree" />
+        <activity android:name=".BigNumbers.NumberTwo" />
+        <activity android:name=".BigNumbers.NumberOne" />
+        <activity android:name=".LearningNumbers.sixToTenNumbers" />
+        <activity android:name=".LearningNumbers.zeroToSixNumbers" />
+        <activity android:name=".Level4.Level4Activity" />
+        <activity android:name=".Level3.Level3Activity" />
+        <activity android:name=".Level2.Level2Activity" />
+        <activity android:name=".Level1.Level1Activity" />
+        <activity android:name=".ActivityPage" />
+        <activity android:name=".ShapesActivity" />
+        <activity android:name=".NumbersActivity" />
+        <activity android:name=".TeacherHomeActvity" />
+        <activity android:name=".StudentHomeActivity" />
+        <activity android:name=".ParentHomeActivity" />
+        <activity android:name=".StudRegistrationActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

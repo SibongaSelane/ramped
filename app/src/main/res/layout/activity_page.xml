@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightSkyBlue"
+    android:orientation="vertical"
+    tools:context=".ActivityPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="-969dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numberactivitypage"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/numberactivitypage"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/emilys_candy"
+        android:gravity="center"
+        android:text="Playing with numbers"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:transitionName="logo_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/lo_level1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/onecar"/>
+
+        <Button
+            android:id="@+id/btnLevel1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/numbers_button"
+            android:text="Level 1"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/onecar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo_level2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lo_level1"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/firsthand"/>
+
+        <Button
+            android:id="@+id/btnLevel2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/numbers_button"
+            android:text="Level 2"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/firsthand"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lo_level3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lo_level2"
+        android:layout_marginTop="45dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ladybugactivity"/>
+
+        <Button
+            android:id="@+id/btnLevel3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/numbers_button"
+            android:text="Level 3"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ladybugactivity"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lo_level4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lo_level3"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/treelevelpage"/>
+
+        <Button
+            android:id="@+id/btnLevel4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/numbers_button"
+            android:text="Level 4"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/treelevelpage"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lo_level4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/numbers_button"
+        android:fontFamily="@font/emilys_candy"
+        android:text="Numbers Menu"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

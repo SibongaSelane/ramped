@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightSkyBlue"
+    tools:context=".Level2.L2Round2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="-969dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hintLayout"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageHint"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ty" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/emilys_candy"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Click me"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hintLayout"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:text="Round 2"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/secondhand"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            >
+
+            <Button
+                android:id="@+id/choice1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="45dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/emilys_candy"
+                android:padding="8dp"
+                android:background="@color/transparent"
+                android:text="9"
+                />
+
+            <Button
+                android:id="@+id/choice2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="45dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/emilys_candy"
+                android:padding="8dp"
+                android:background="@color/transparent"
+                android:text="10"
+                />
+
+            <Button
+                android:id="@+id/choice3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="45dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                android:fontFamily="@font/emilys_candy"
+                android:background="@color/transparent"
+                android:text="8"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/emilys_candy"
+            android:background="@drawable/numbers_button"
+            android:layout_marginBottom="30dp"
+            android:text="BACK"></Button>
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

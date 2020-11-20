@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightSkyBlue"
+    tools:context=".LearningNumbers.sixToTenNumbers">
+
+    <LinearLayout
+        android:id="@+id/fRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSix"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="6"
+                android:textColor="@color/black"
+                android:background="@color/orangenumbers"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:text="Six"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSeven"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@color/orangenumbers"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:text="Seven"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fRow"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/fRow">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="8"
+                android:textColor="@color/black"
+                android:background="@color/orangenumbers"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:text="Eight"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnNine"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="9"
+                android:textColor="@color/black"
+                android:background="@color/orangenumbers"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Nine"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fRow2"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fRow2">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnTen"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="10"
+                android:textColor="@color/black"
+                android:background="@color/orangenumbers"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Ten"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fRow3"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/fRow3">
+
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/numbers_button"
+            android:text="BACK" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/numbers_button"
+            android:text="NEXT" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:background="@drawable/numbers_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emilys_candy"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Numbers Menu"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
